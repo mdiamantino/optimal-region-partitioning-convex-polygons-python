@@ -3,6 +3,9 @@
 
 Please, read the following medium [article](https://medium.com/codex/optimal-region-partitioning-for-uavs-and-drones-in-cooperative-flight-settings-c0764a6450f9) to learn more about the implemented partitioning algorithm.
 
+![for drones](https://miro.medium.com/max/1000/1*8Jps5SCEbakugsHMC_8tPQ.png)
+![zigzag partitioning](https://miro.medium.com/max/700/1*yU5HS58sK6K41dwyAs9Ttw.png)
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -42,12 +45,12 @@ sudo apt-get install python3-tk
    ```sh
    python3 demo.py
    ```
-* Using your own polygon's coordinates and number of partitions (with graphical visualisation):   
+* Using your own polygon's coordinates and number of partitions (with graphical visualization):   
    ```sh
    python3 main.py
    ```
 
-* Using your own polygon's coordinates and number of partitions (without graphical visualisation):
+* Using your own polygon's coordinates and number of partitions (without graphical visualization):
   
   1.
    ```sh
