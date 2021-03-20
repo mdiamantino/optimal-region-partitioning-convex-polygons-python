@@ -1,5 +1,5 @@
 from utils import area_of, is_point_on_segment, subtract_from, \
-    extract_slope_coefficients
+    extract_slope_coefficients, display_polygons
 
 
 def reversed_shoelace(target_area, line, v_i, v_ip1, sign):
@@ -87,3 +87,8 @@ def compute_partitions_iterative(polygon_vertices, n_partitions):
         n_partitions -= 1
     sub_polygons.append(remaining_polygon)
     return sub_polygons
+
+
+def partition_with_visualization(polygon_vertices, n_partitions):
+    res = compute_partitions_recursive(polygon_vertices, n_partitions)
+    display_polygons(res)
