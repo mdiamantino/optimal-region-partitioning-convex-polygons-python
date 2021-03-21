@@ -45,12 +45,12 @@ sudo apt-get install python3-tk
    ```sh
    python3 demo.py
    ```
-* Using your own polygon's coordinates and number of partitions (with graphical visualization):   
+* Or, use your own polygon's coordinates and number of partitions (with graphical visualization):   
    ```sh
    python3 main.py
    ```
 
-* Using your own polygon's coordinates and number of partitions (without graphical visualization):
+* Or, use the project as module (without graphical visualization):
   
   1.
    ```sh
@@ -65,9 +65,7 @@ sudo apt-get install python3-tk
    ```sh
    >>> compute_partitions_recursive([(0,0),(0,5),(7,7),(4,0)],3)
    ```
-* Input your own polygon's coordinates and number of partitions (without visualization):
-
-
+   
 <!-- CONTACT -->
 ## Contact
 
